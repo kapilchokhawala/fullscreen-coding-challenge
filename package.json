@@ -1,0 +1,28 @@
+{
+  "name": "fullscreen_qa_automation_framework",
+  "version": "1.0.0",
+  "description": "This project is a solution to the QA Automation Challenge, presented to the candidate for the said position at FullScreen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://kchokhawala.visualstudio.com/_git/fullscreen_qa_automation_challenge"
+  },
+  "author": "Kapil Chokhawala",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "randomstring": "^1.1.5",
+    "wdio-dot-reporter": "0.0.9",
+    "wdio-mocha-framework": "^0.5.12",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.4",
+    "webdriverio": "^4.11.0"
+  },
+  "dependencies": {
+    "npm": "^5.7.1"
+  }
+}
